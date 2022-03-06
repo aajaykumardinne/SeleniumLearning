@@ -1,0 +1,27 @@
+
+
+
+	Everything is available in the from of Rest API's which are present in Selenium client library
+
+
+	W3C WebDriver protocol is used in Selenium 4 in place of json wire protocol
+
+
+	Advantages of W3C WebDriver:
+	1.protocol Standards ---> common code
+	2.Stability
+	3.Actions API --->> Two keys press , zoom in or out , drag and drop.
+	4.Code is backward compatibility.
+	5.Wont impact the code 
+	6.added extra or removed desired capabilities
+
+
+	Selenium 3.8 to 3.14.59 version uses json wire protocol + W3C WebDriver
+	Selenium 4 W3C WebDriver
+
+
+	In Selenium 4
+
+	IDE +    uses W3C WebDriver protocol
+	WD + 
+	Grid 

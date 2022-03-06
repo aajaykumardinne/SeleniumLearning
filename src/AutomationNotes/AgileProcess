@@ -1,0 +1,185 @@
+
+
+	Scrum Team
+
+	1.Scrum Master
+	2.Product Owner(PO)
+	3.Dev Team
+	4.QA Team
+
+
+
+	JIRA  
+	RALLY 
+ 
+
+
+	Market Place - Product Name
+
+
+	Definiton of Done(DOD):
+	Non functional requirements are met
+	Code Review accepted
+	Documentation written or updated
+	Automated tests written and passing
+	Manual Tests passing
+	There are NO known bugs
+	Accpeted by PO on Stage/Alpha
+	Design Review is completed
+	Deployment to production and changes are merged to master branch.
+
+
+
+	Definition of Ready(DOR):
+	A Developer Should be able to gather the following information from a story:
+	What to do? -> Business value is described
+	Acceptance Criteria is defined.
+	Acceptance Criteria should be testable.
+	Story is estimated.
+	There is common understanding in the team.
+	(optional) is monitoring needed
+
+
+	Market Place - JIRA
+	Dash Board
+	1.Backlog -- 100 User Stories
+	2.Current Active Sprint
+
+
+
+	1st November 2021(any date)
+	Sprint 01:
+	10 US -- PO
+	Dev OPS - Infrastructure Team
+
+
+
+	31st October 2021
+	1.Sprint planning -- sprint 01:
+	10 User stories
+	DEV/QA
+	US01 - Backlog to Active Sprint
+	Acceptance Criteria - Gherkin/ Business Langauge
+	Conference Pages
+	Estimations - US points
+	0 1 2 3 5 8 13 21 --
+	Rough EST -- POKER GAME
+	Move to Active Sprint
+
+	DEV -- dev tasks
+	QA - qa tasks
+	1.Manual test cases
+	2.Automation test cases
+	3.Test data preparation
+	4.Test environment
+
+
+	Test Cases - PO - review - final version
+
+	2 PM IST - Scrum call / stand up call
+	2 mins:
+	1. status - 24 hrs last/next
+	2.Blockers
+
+
+	Backlog refinement / grooming sessions
+ 	1-2 sessions in a sprint
+ 
+ 
+ 	Sprint Review  -- Final Demo to the business - PO/QA/DEV
+ 
+ 	Velocity - 10, 30 and 90
+ 	10 US 
+ 	4 US == 30
+
+	Sprint Retrospective:
+	1. What went well?
+	2. What went wrong?
+	3. Improvement areas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

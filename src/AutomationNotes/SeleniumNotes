@@ -1,0 +1,54 @@
+	Pros 
+
+	open source
+
+	supports multiple programming languages
+	java , c#, .net,python perl ruby perl php javascript
+
+	supports all the platforms/OS
+	windows, macos, linux , unix
+
+	Cross browser testing
+	chrome FF Safari Edge Opera
+
+	Headless browsers
+	PhantomJs, HTMLUnitDriver Chrome Headless
+
+	can be integrated with any open source unit testing framework
+	such as Testng,JUnit -- TDD
+
+	BDD Frameworks
+	Cucumber, JBehave and  Serenity
+
+	Light Weight
+	Available in the form of APIS
+
+	CI-CD
+
+	Jenkins
+
+	can be executed on local machine , cloud/VM/Servers
+
+	BrowserStack SauceLabs AWS Docker
+
+	Customize webdriver codebase -- source code will be shared
+
+	Wrappers -- Appium, Protractor, Watir, Robot Framework.
+
+
+	Cons
+
+	1.as it is open source, no direct support.
+
+	2.you need to learn programming  -- No scriptless or codeless Automation.
+
+	3.no desktop app auotmation support.
+
+	4.no report for test results.
+
+	5.for any extra work: test cases designing, report, build, CI-CD.
+
+	6.no bar code and no captcha.
+
+
+

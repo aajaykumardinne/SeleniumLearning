@@ -1,0 +1,109 @@
+
+	1. TDD - Test Driven Development
+
+	1.1. Development centric approach
+
+	1.2. Unit Test(White Box Testing)
+
+	1.3. Write test cases before code is written
+	i.e Author is the Developer.
+
+	1.4. Test First Approach
+
+	1.5. Key Focus -> Is my code working correctly
+
+	1.6 TDD Cycle
+
+	1.6.1. Test Fails (Write the Test Fails)
+
+	1.6.2. Test Passed(Make the code works)
+
+	1.6.3. Refactor(Improve the code)
+
+
+
+    2.BDD - Behavior Driven Development 
+
+	2.1. An Extension of TDD.
+
+	2.2. Works on higher level of abstraction as compared to TDD
+
+	2.3. Always ask -> have we covered all the possible Scenarios(Examples)?
+
+	2.4. Test First Approach
+
+	2.5. Authors -> 3 Amigos -> PO + DEV + QA
+
+
+	2.6 BDD Cycle
+
+	2.6.1. Test Fails(Write Failure Feature/Scenario).
+
+	2.6.2. Test Passed(Make the test pass)
+
+	2.6.3. Refactor(Improve the code)
+
+
+
+
+	3.ATDD - Acceptance Test Driven Development
+
+	3.1. Higher level of abstraction as compared to BDD and TDD
+
+	3.2. Focus on high level requirements
+
+	3.3. Authors ->> PO/BA/Stakehoders
+
+
+	3.4.ATDD Cycle
+
+	3.4.1.  Create the User Stories(PO)
+
+	3.4.2.  Acceptance Test(PO/QA)
+
+	3.4.3.  Write/Expand the Test cases(QA)
+
+	3.4.4.  Follow TDD or BDD Approach
+
+	3.4.5.  Develop the code(dev)
+
+	3.4.6.  SDemo(PO/QA)
+
+	3.4.7.  Delivery to the Customer 
+
+
+  	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

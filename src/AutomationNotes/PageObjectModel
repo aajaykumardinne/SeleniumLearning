@@ -1,0 +1,123 @@
+
+
+	POM is Design Pattern automation Approach,
+
+	will integrate with  + 
+
+	Data Driven Framework +
+
+	TestNG to write the test cases.
+
+
+	For each page we should create  separate java classes.
+
+
+	Example pages:
+
+	Login Page
+
+	1.WebObjects/WebElements.
+	2.Actions/Methods for Features for particular page.
+	1 and 2 are called as Object Repository which are defined as collection of web elements or web objects.
+
+
+	1.First Layer ------- Page Layer  in which page libraries are defined. -------->>>>>>>>>>>  PRESENT IN com.qa.pages package.
+
+	2.Second Layer ----- Test Layer written with the help of TestNG annotations and test cases.------->>>>>>>>>> PRESENT IN com.qa.tests package.
+
+
+	3.Third Layer -------Test Base class -- ParentClass ---->>>>>> PRESENT IN com.qa.base package.
+	WebDriver initializations
+	properties
+	maximizeWindow()
+	implicitWait()
+	deleteAllCookies()
+	get(URL)
+	pageLoadTimeout()
+
+
+	4.Fourth Layer --Config.properties,url, UserName, password, Browser,other   ----------->>>>>> PRESENT IN com.qa.config
+
+
+	5.Fifth layer -- store the test data in excel      ------>>>>>> PRESENT IN com.qa.testdata
+
+
+	6.Sixth LAyer --- utilities class     ------>>>>>> PRESENT IN com.qa.util
+	Screenshot()
+	sendMail()
+	commonUtil()
+	Generic functions
+
+
+	7.Seventh layer -- Test Reports:Pass/Fail   --- ------>>>>>> PRESENT IN  Test-output/reports
+	HTMl
+	TestNG
+	XML Reports
+	Extent Reports
+
+
+	We can navigate from one page to the other page in the POM model hence called as Page Chaining Model.
+
+
+
+	Technologies used:
+	1.Java -- for writing the code
+	2.Selenium WebDriver
+	3.TestNG - for writing the test cases.
+	4.MavenTool - build automation tool
+	5.Apache POI API - to read the data from the excel files.
+	6.Extent/TestNG Report - for generating the reports.
+	7.Log4j API : to generate the logs. gh9/8
+	8.Jenkins - for continous integration to trigger the build.
+	9.GIT Repository - to push the code.
+	10.Selenium Grid - for parallel testing.
+	11.Browsers -- FF/Chrome/Safari
+	12.Platform -- Windows/MAC
+	13.VMS/Sauce labs/browser stacks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

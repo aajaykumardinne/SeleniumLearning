@@ -1,0 +1,8 @@
+
+	Folder Structure in POM
+
+	framework is designed by step by step 
+
+	src/main/java ------ >>>>> page classes , utilities , page libraries. 
+
+	src/test/java ------ >>>>> create  only the test cases layer which are written under testng.

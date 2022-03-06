@@ -1,0 +1,16 @@
+
+
+	Defect ->>>>>  at the core/ground level or the coding level or the buggy code officially -- technical term
+
+
+	Bug ->>>>>  QA Team will identify the problem after testing the application.
+	superset of defect.
+
+
+
+	Failure ==  related to the production when deploying the application.
+
+
+
+
+	Error ->>>> at the coding level such as compile time error, run time error,null check 

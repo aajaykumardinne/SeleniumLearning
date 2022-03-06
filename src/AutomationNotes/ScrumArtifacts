@@ -1,0 +1,69 @@
+
+	1.Product Backlog
+	list of all the features
+	should be public and easily available.
+	PO should maintain the product backlog.
+	should have proper acceptance criteria,conference pages,documents, criteria , models and specification.
+	Pool of features  such as:
+	defects 
+	Tech work
+
+	2.Sprint Backlog/user stories  - subset of product backlog which contains features and development related to the particular sprint only
+
+	2 weeks
+	4 User Stories
+	TODO -- > IN PROGRESS --> QA Review -- > DONE
+	TODO -- > IN PROGRESS -->  QA Review -- > TO DO/OPEN -- IN DEVELOPMENT PHASE --> QA Review -- > DONE
+
+
+	3.Scrum Events
+	-- Sprint Planning
+	-- Daily Scrum : daily meeting or Stand up meeting/Call
+	-- should be completed within 10 to 15 minutes 
+
+	4.Sprint Review:
+	SP1: 15 days
+	On 16th day: Sprint Review
+	Demo will be given
+	Achieved Goals: <100% , =100%, >100% 0%
+
+
+Acceptance criteria is defined by the product owner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

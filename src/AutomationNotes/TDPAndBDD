@@ -1,0 +1,40 @@
+	Traditional Development Process(TDP):
+
+
+	1.Stakeholders tells PO/BA about Business Models
+
+	2.PO/BA writes the requirements in the form of SRS Docuement or USErStories.
+
+	3.Dev Team starting the code.
+
+	4.Tester Starts writing test cases.
+
+	5.Finish Product 
+
+	6.Tech writer -> Doc
+
+
+
+
+	BDD Process(Behavior Driven Development)
+
+	1.Stakeholders + PO/BA talks about business requirements(more collaboration)
+
+	2.PO+DEV+QA collaborate around requirements
+
+	Three Amigos: PO + DEV + QA
+
+	3.Agreed upon the requirements defined as English Formatted Scenarios(Gherkin):
+
+	Gherkin ->> Given ,When , Then, And ,As
+
+	Scenarios using examples , requirements that matters
+	Ask Questions(Why, How, what)
+
+	4.QA Team uses Scenarios for the manual test cases.
+
+	5.Developer uses Scenarios for the Automated test cases.
+
+	6.Automated Test Report generated against features/Scenarios.
+
+	7.Finish Product.

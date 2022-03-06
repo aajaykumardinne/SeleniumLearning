@@ -1,0 +1,97 @@
+	A.functional test cases
+	
+	1. valid un/pwd  +ve
+	2. invalid un/pwd -ve
+	3. valid un but invalid pwd -ve
+	4. blank un/pwd -ve
+	5. blank un but some pwd --ve
+	6. valid un and blank pwd  --ve
+	7. forgot password feature test +ve
+	8. after forgot pwd, user should be able to login +ve
+	9. Reset password +ve
+	10.invalid use cases --- messages pop up the UI. +ve
+	11.valid un and pwd -- on home page -->>> check valid user name  +ve
+	12.Remember me +ve
+	13.SSO - single sign on --->> +ve
+	14.check password field --->> ****** or ..... 
+	15. show password ---> Test123 
+	16.Enter the key +ve
+	17.password policy: more than 8 characters   +ve
+	---only alphanumeric 
+	-- No @#$ chars are allowed 
+	--- Easy, medium , strong ,very strong  
+	18.Click on back button after logged out -ve
+	19.check password in browser cache and cookies +ve
+	20.Expired password -ve
+	21.blocked user: 
+	--- for life time blocked
+	--- for 24 hrs for some time blocking
+	22.check login feature on  different browsers.
+	23.check login on different devices: ios/Android/Tablet
+	24.user validation in data base:
+	--- driving license/passport document is missing
+	-- email confirmation is pending
+	25.Email notification for login pasword +ve
+	26.logged in FF with UN1, open a new tab , try to login with UN2 -ve
+	27.Session expired -ve
+	-- 30 mins , 1 hr,  15 mins, 10 mins
+	28.on different browsers
+	
+	
+	
+B. Non Functional Test Cases : Performance , Security
+
+	1.Should not take time 	to login to app.
+	2.Usability testing --- proper validation messages
+	3.Alignment , look and feel.
+	4.Password policy should be followed.
+	5.SQL Injection
+	6.SSL Certificates testing
+	7.In backend: on PRODUCTION ENVIRONMENT, customer password should not be logged in logs
+	8. Encryption and decryption of the password:
+ 		Test123 -- 2345@%@#$%23$%@#$%SFGSG
+	9. India -- logged in to APP
+ 		and at the same time
+	 Germany -- logged into APP	
+	10. history of login details
+	11. Mobile App -- Samsung login
+		 --Apple iphone 8: login 
+	12. unsuccessful login attempts: 
+	 	--3 times wrong password: 1 hr blocked
+		--10 times wrong pwd: blocked for 1 hr	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

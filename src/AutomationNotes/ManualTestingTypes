@@ -1,0 +1,146 @@
+
+
+	Testing means Actual vs Expected
+
+	Testing two parts
+
+	1.Functional: checking the functionality of the application 
+
+	checking the use case, feature
+
+	1.1 System Testing: 
+
+	1.2 Regression Testing: 
+
+	1.3 Re-Testing: Bug verification
+
+	1.4 Smoke Testing: basic testing 
+
+	1.5 Sanity Testing: checking high level business scenarios
+
+	1.6 Unit Testing: done by the developers.
+
+	1.7 Integration Testing:
+
+	1.8 Database Testing:
+
+	1.9 White box Testing:
+
+	1.10 Black box Testing:
+
+	1.11 Grey box Testing: White box Testing + Black box Testing
+
+	1.12 Monkey Testing:
+
+	1.13 Ad-hoc/Random Testing:
+
+	1.14 Component Testing:
+
+	1.15 GUI Testing:
+
+	1.16:End to End Testing:
+
+	1.17 User Acceptance Testing: 
+
+	1.17.1 Alpha Testing
+
+	1.17.2 Beta Testing
+
+	1.18 Acceptance Testing
+
+	1.19 Happy path testing:
+
+	1.20 Negative Testing:
+
+	1.21 Recovery Testing:
+
+	1.22 Static Testing:
+
+	3 steps:
+	Reviews
+	Walkthrough
+	Inspection
+
+	1.23 Compatibility Testing:
+
+	(Browser/OS)
+
+
+
+
+
+	2.Non-functional: once the functional testing is fine
+
+
+	2.1 Performance Testing:
+
+	2.1.1 load testing:
+
+	2.1.2 stress testing
+
+	2.1.3 Volume testing:
+
+	2.2 Security Testing
+
+	2.2.1 Penetration
+
+	2.2.2 SQL Injection
+
+	2.2.3 Vulnerability
+
+
+	2.2.4 Authentication
+
+	2.2.5 Username /password
+
+
+
+
+
+
+Write the test cases manually using excel/QC/Test Rail  in Manual Testing
+
+
+
+
+Myths about Manual Testing:
+1.Any one  can not do manual testing
+2.Constructive mind with the destructive approach.
+3.without Domain knowledge.
+4.without knowing business use cases.
+5.Zero defect application is not possible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

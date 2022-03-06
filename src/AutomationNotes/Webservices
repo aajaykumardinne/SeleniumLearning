@@ -1,0 +1,87 @@
+What is a WebService? 
+
+
+
+
+Types of WebServices
+
+1.SOAP ->>> Simple Object Access Protocol works over the HTTP with the help of the internet.
+2.REST --?>>> Representational Stateful APIs
+
+
+
+	Differences between SOAP and REST
+
+
+	SOAP Request                                                                   REST REquest
+
+	1.Endpoint URL                                                                 1.Endpoint URL
+	http://www.xyz.com/login                                                        http://www.xyz.com/login
+	http://www.xyz.com/createAccount
+	http://www.xyz.com/getEmployeeList
+
+	(created by the DEV Team)
+
+	2.Request (XML)                                                                2.Different types of content
+                                                                                	MME Types:
+	<username> admin </username>                                                    1.XML
+	<password> admin123 </password>                                                 2.JSON
+                                                                                	3.String
+                                                                                	4.Document
+                                     
+                                     
+ 	3.Response (XML)                                                             3. Types of Call/Operations:
+
+	<status> success </status>                                                     C:  Create/POST
+                                                                               	   R:  Retrieve/GET
+	Login done                                                                     U:  Update/ PUT
+	Home Page                                                                      D:  Delete/DELETE
+
+                                                                               
+                                                                               	4.Headers:
+                                                                               
+                                                                               --content type : JSON
+                                                                               --username/password: Authentication 
+                                                                               
+                                                                               5.Response:
+                                                                               JSON,XML,String message
+                                                                               
+                                                                               6.Response Code:
+                                                                               200,300,404,500,400
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+ 	Tools/Technologies  :Manual + Automation Testing for Web Services
+ 
+ 	1.SOAP UI(FREE/LICENSED-PRO)
+ 	--SOAP
+ 	--REST
+ 
+ 	2.POSTMAN
+ 	--REST
+ 
+ 	3.REST Client/Advance Rest Client
+ 	--REST
+ 
+ 	4.HTTP Client
+ 	--REST                        4 and 5 are JAVA apis to automate the REST calls.
+ 
+ 	5.Rest Assured
+ 	--REST
+ 
+ 	6.Jersey Client
+ 	--REST
+ 
+ 	7.SOAP Client
+ 	--SOAP
+ 
+ 	8.JMETER
+ 	--REST
+                                                                              
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+                                                                               
