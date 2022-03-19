@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNg Sessions  Test Automation Suite">
+  <test name="Different TestNg Feature  Test">
+  
+  
+  	  
+      
+      <classes>
+      		<class name="TestNgPractice.EbayTest"/>
+			<class name="TestNgPractice.ExceptionTimeOutTest"/>
+			<class name="TestNgPractice.GoogleTest"/>
+			<class name="TestNgPractice.GoogleTitleTest"/>
+			<class name="TestNgPractice.InvocationCountTest"/>
+			<class name="TestNgPractice.TestNgBasics"/>
+			<class name="TestNgPractice.TestNgDependency"/>
+			<class name="TestNgPractice.TestNgFeatures"/>
+			<class name="TestNgPractice.TestNgGroup"/>
+			<class name="TestNgPractice.YahooMailTest"/>
+		
+      </classes>
+      
+  </test> 
+ </suite>

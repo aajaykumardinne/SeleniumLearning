@@ -29,9 +29,12 @@ public class ExplicitWaitConcept {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);  // putting a waiting time for all the elements.
 		
 		
-
-		driver.get("https://www.facebook.com/");
+//
+//		driver.get("https://www.facebook.com/");
 		
+		
+		driver.navigate().to("https://www.facebook.com/");
+//		
 //		clickOn(driver,driver.findElement(By.name("login")),20);  // login  button
 		
 		clickOn(driver,driver.findElement(By.xpath("//*[@id='reg_pages_msg']")),20); // create a page link 
@@ -50,5 +53,7 @@ public class ExplicitWaitConcept {
 		locator.click();
 		
 	}
+	
+	
 
 }

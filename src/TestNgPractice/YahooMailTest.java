@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 public class YahooMailTest {
 	
+	// Revised
+	
 //	launch Firefox browser
 //	login to app
 //	compose mail test
@@ -20,6 +22,9 @@ public class YahooMailTest {
 //	log out from the app
 //	Quit the browser
 	
+	
+	//@BC,@BM,@Test,@AM,@AC --- order of execution of the TestNg assertions.
+	// After completing all the @Test assertions then @AC will execute.
 	
 	// 1
 	@BeforeClass
@@ -49,7 +54,7 @@ public class YahooMailTest {
 	@Test(priority = 3)
 	public void searchMailTest() {
 			System.out.println("search Mail Test");
-			int i = 9/0;
+//			int i = 9/0;
 	}
 	
 	@Test(priority=4)

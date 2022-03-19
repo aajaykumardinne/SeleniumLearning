@@ -21,6 +21,8 @@ public class LocatorConcept {
 		// Question ????: When you to use the particular locator when automating the particular web page to find the address
 		// of the web element.
 		
+//		Answer>> Always per the id , name locator if the web page does not have both of them 
+		// then move to the xpath and css selector/
 		
 		// 1. id: always unique --- I
 	//	WebElement username = driver.findElement(By.id("login-username"));
@@ -35,7 +37,7 @@ public class LocatorConcept {
 		 
 		 
 		
-		 // 2.name:always unique -- I
+		 // 2.name:always not unique -- I
 		 
 	//	driver.findElement(By.name("username")).sendKeys("kumardinne@yahoo.com");
 	//	driver.findElement(By.name("signin")).click();

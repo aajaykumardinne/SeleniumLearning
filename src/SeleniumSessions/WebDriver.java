@@ -10,6 +10,7 @@ public interface WebDriver {
 	public void close();
 	
 	public void quit();
+
 	
 	
 

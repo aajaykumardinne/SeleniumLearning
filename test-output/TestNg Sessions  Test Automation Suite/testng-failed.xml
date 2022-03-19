@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Sessions  Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Different TestNg Feature  Test(failed)">
+    <classes>
+      <class name="TestNgPractice.TestNgFeatures">
+        <methods>
+          <include name="RegPageTest"/>
+          <include name="loginTest"/>
+          <include name="HomePageTest"/>
+          <include name="SearchPageTest"/>
+        </methods>
+      </class> <!-- TestNgPractice.TestNgFeatures -->
+      <class name="TestNgPractice.YahooMailTest">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="searchMailTest"/>
+        </methods>
+      </class> <!-- TestNgPractice.YahooMailTest -->
+    </classes>
+  </test> <!-- Different TestNg Feature  Test(failed) -->
+</suite> <!-- Failed suite [TestNg Sessions  Test Automation Suite] -->

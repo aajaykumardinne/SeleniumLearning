@@ -1,7 +1,11 @@
 
-	TestNG --- unit test framework
-	TDD -- Test Driven Development
 
+
+   // Revised
+   
+   
+	TestNG --- unit test framework
+	TDD -- Test Driven Development approach
 
 
 	purpose -- to design the test cases in a systematic way, generates 
@@ -21,6 +25,9 @@
 
 
 	install TestNG plugin in Eclipse
+	
+	
+	Refresh the .java file to generate html reports.
 
 
 

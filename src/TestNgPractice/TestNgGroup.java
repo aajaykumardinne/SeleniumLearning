@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestNgGroup {
 
-	
+	// Revised
 	@Test(groups = "Inbox")
 	public void  method1Test() {
 		System.out.println("MT1");

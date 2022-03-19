@@ -1,9 +1,12 @@
-package com.test;
+package TestNgPractice;
 
 import org.testng.annotations.Test;
 
 public class InvocationCountTest {
 	
+	//Revised
+	
+	// invocationCount -- exceutes the @test cases n number of times
 	@Test(invocationCount=10)
 	public void sum() {
 		int a = 10;
@@ -11,6 +14,7 @@ public class InvocationCountTest {
 		int c = a + b;
 		System.out.println("sum is==="+ c);
 	}
+	
 	
 	
 	

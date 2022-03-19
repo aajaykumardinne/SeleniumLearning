@@ -1,4 +1,4 @@
-package com.test;
+package TestNgPractice;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -12,7 +12,11 @@ import org.testng.annotations.Test;
 
 public class TestNgBasics {
 	
+	// Revised
+
 	// Pre-Conditions annotations -- starting with @Before
+	
+	// @annotations order of execution -- @BS,@BT,@BC,@BM,@Test,@AM,@AC,@AT,@AS
 	
 	@BeforeSuite // 1
 	public void setUp() {
@@ -37,6 +41,14 @@ public class TestNgBasics {
 	}
 	
 	// test cases -- starting with @Test
+	// @BM
+	// @Test-1
+	// @AM
+	
+	// BM
+	// @Test-2
+	// @AM
+	
    @Test // 5
 	public void googleTitleTest() {
 		System.out.println("@Test -- Google Title Test");
@@ -48,10 +60,10 @@ public class TestNgBasics {
    }
    
    
-   @Test 
-   public void searchTest() {
-	   System.out.println("@Test --  search test");
-   }
+//   @Test 
+//   public void searchTest() {
+//	   System.out.println("@Test --  search test");
+//   }
    
 	
 	// post conditions  -- starting with @After
@@ -67,7 +79,7 @@ public class TestNgBasics {
 		
 	}
 	
-	@AfterClass // 7 
+	@AfterClass // 7
 	public void closeBrowser() {
 		System.out.println("@AfterClass  -- Close browser");
 	}

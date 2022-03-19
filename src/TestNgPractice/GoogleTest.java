@@ -1,4 +1,4 @@
-package com.test;
+package TestNgPractice;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,11 +11,13 @@ import org.testng.annotations.Test;
 
 public class GoogleTest {
 	
+	// Revised
+
 	WebDriver driver;
 	
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver(); 
 		driver.manage().window().maximize();  // maximize window
 		driver.manage().deleteAllCookies();  // delete all the cookies

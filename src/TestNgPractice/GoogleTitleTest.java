@@ -1,4 +1,4 @@
-package com.test;
+package TestNgPractice;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,13 +12,14 @@ import org.testng.annotations.Test;
 
 public class GoogleTitleTest {
 	
+	// Revised
 	
 	WebDriver driver;
 	
 	
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver(); 
 		driver.manage().window().maximize();  // maximize window
 		driver.manage().deleteAllCookies();  // delete all the cookies
@@ -33,14 +34,14 @@ public class GoogleTitleTest {
 		String title = driver.getTitle();
 		System.out.println(title);
 		
-		
+		// for the validation of the data -- doing validation with the help of Assert class
 		Assert.assertEquals(title, "Google","title is not matched");
 	}
 	
 	
 	@Test
 	public void googleLogoTest(){
-		boolean b = driver.findElement(By.xpath("//*[@id='logo']")).isDisplayed();
+		boolean b = driver.findElement(By.xpath("//*[@id='hplogo']")).isDisplayed();
 		Assert.assertTrue(b);
 		Assert.assertEquals(b, true);
 	}
