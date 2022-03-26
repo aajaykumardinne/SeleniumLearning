@@ -41,7 +41,7 @@ public class DyamicWebTableHandle {
 		//*[@id='vContactsForm']/table/tbody/tr[4]/td[2]/a
 		//*[@id='vContactsForm']/table/tbody/tr[5]/td[2]/a
 		//*[@id='vContactsForm']/table/tbody/tr[6]/td[2]/a
-		//*[@id='vContactsForm']/table/tbody/tr[7]/td[2]/a\
+		//*[@id='vContactsForm']/table/tbody/tr[7]/td[2]/a
 		
 		
 //		//Method-1:

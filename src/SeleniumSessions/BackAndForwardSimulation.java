@@ -12,7 +12,7 @@ public class BackAndForwardSimulation {
 		WebDriver driver = new ChromeDriver();  // Launch Chrome
 		
 		
-		driver.get("https://www.google.com/");
+		driver.get("https://google.com/");
 		System.out.println(driver.getTitle());
 		
 		driver.navigate().to("https://www.rediff.com/"); 
