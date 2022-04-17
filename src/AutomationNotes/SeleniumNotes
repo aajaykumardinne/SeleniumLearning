@@ -1,54 +1,53 @@
-	Pros 
+Pros 
 
-	open source
+1.open source
 
-	supports multiple programming languages
-	java , c#, .net,python perl ruby perl php javascript
+2.supports multiple programming languages
+java , c#, .net,python perl ruby perl php javascript
 
-	supports all the platforms/OS
-	windows, macos, linux , unix
+3.supports all the platforms/OS
+windows, macos, linux , unix
 
-	Cross browser testing
-	chrome FF Safari Edge Opera
+4.Cross browser testing
+chrome FF Safari Edge Opera
 
-	Headless browsers
-	PhantomJs, HTMLUnitDriver Chrome Headless
+5.Headless browsers
+PhantomJs, HTMLUnitDriver Chrome, Firefox Headless
 
-	can be integrated with any open source unit testing framework
-	such as Testng,JUnit -- TDD
+6.can be integrated with any open source unit testing framework
+such as Testng,JUnit -- TDD
 
-	BDD Frameworks
-	Cucumber, JBehave and  Serenity
+7.BDD Frameworks
+Cucumber, JBehave and  Serenity
 
-	Light Weight
-	Available in the form of APIS
+8.Light Weight
 
-	CI-CD
+9.Available in the form of APIS
 
-	Jenkins
+10. CI-CD
+Jenkins
 
-	can be executed on local machine , cloud/VM/Servers
+11.can be executed on local machine , cloud/VM/Servers
+BrowserStack SauceLabs AWS Docker
 
-	BrowserStack SauceLabs AWS Docker
+12.Customize webdriver codebase -- source code will be shared
 
-	Customize webdriver codebase -- source code will be shared
-
-	Wrappers -- Appium, Protractor, Watir, Robot Framework.
+13.Wrappers -- Appium, Protractor, Watir, Robot Framework.
 
 
-	Cons
+Cons
 
-	1.as it is open source, no direct support.
+1.as it is open source, no direct support.
 
-	2.you need to learn programming  -- No scriptless or codeless Automation.
+2.you need to learn programming  -- No scriptless or codeless Automation.
 
-	3.no desktop app auotmation support.
+3.no desktop app auotmation support.
 
-	4.no report for test results.
+4.no report for test results.
 
-	5.for any extra work: test cases designing, report, build, CI-CD.
+5.for any extra work: test cases designing, report, build, CI-CD.
 
-	6.no bar code and no captcha.
+6.no bar code and no captcha.
 
 
 
