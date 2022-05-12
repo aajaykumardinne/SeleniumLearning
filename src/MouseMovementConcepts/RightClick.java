@@ -24,7 +24,7 @@ public class RightClick {
 		WebElement rigthClickButton = driver.findElement(By.cssSelector(".context-menu-one"));
 
 		action.contextClick(rigthClickButton).build().perform();
-//
+
 //		WebElement copy = driver.findElement(By.cssSelector(".context-menu-icon-copy"));
 //
 //		String copyText = copy.getText();
